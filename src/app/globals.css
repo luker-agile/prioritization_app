@@ -1,6 +1,50 @@
+/*
+ * Centralized color palette.
+ */
+
 :root {
   --background: #ffffff;
+  --background_app: #F9FAFC;
   --foreground: #171717;
+
+  /* Colors */
+  --color-primary: #1C34EC;
+  --color-primary-dark: #2540D9;
+  --color-primary-medium: #4158D9;
+  --color-primary-light: #919CD9;
+
+  --color-secondary: #1C77ED;
+  --color-tertiary: #99D3FF;
+  --color-four: #481CED;
+  --color-five: #8D0801;
+  --color-six: #8D0801;
+
+  /* Text colors */
+  --text-primary: #09124F;
+  --text-secondary: #0E1B78;
+  --text-tertiary: #919CD9;
+
+  /* Footer */
+  --color-footer-bg: #FCE7FE;
+  --color-copy-bg: #7a0683;
+  --color-footer-text: #ffffff;
+  --color-footer-card-bg: #FDE1FF;
+  --color-footer-accent: #7a0683;
+
+  /* Header y NavBar */
+  --color-nav-bg: #7a0683;
+  --color-nav-text: #ffffff;
+  --color-nav-link: #ffffff;
+  --color-nav-active: #D543DF;
+  --color-header-bg: #ffffff;
+  --color-header-text: #7a0683;
+
+  /* Form inputs (Input, TextArea, Select) */
+  --input-border: var(--color-primary-light3);
+  --input-border-focus: var(--color-primary);
+  --input-placeholder: var(--color-four);
+  --input-focus-ring: rgba(122, 6, 131, 0.2);
+  --input-bg-focus: var(--color-primary-light);
 }
 
 @media (prefers-color-scheme: dark) {
